@@ -1,10 +1,10 @@
 # DLA_Generator
-This program will create and analyze DLA clusters
-
-Assumptions for this simulation:  
-Particles are introduced from an infinite distance (simulatated infinity)
-Particles undergo random-walks as transport mechanism
-Particles aggregate irreversibly upon contact, contact defined by a particle occupying an adjacent site
+This program will create and analyze DLA clusters \n
+\n
+Assumptions for this simulation:  \n
+Particles are introduced from an infinite distance (simulatated infinity)\n
+Particles undergo random-walks as transport mechanism\n
+Particles aggregate irreversibly upon contact, contact defined by a particle occupying an adjacent site\n
 Adjacent sites are defined either by Von Neumann(DLA_Main) or Moore Neighborhoods(animation)
 If a particle moves past the allowable distance from the origin, it is removed and another is introduced
 A seed-particle is located at the origin
