@@ -153,7 +153,7 @@ fig=plt.figure()
 correlation = np.zeros((1,2))
 
 for f in range (3,24):
-    holder=np.array(frac_dim_get_1(starter_lat,f))
+    holder=np.array(frac_dim_get(starter_lat,f))
     correlation =np.vstack((correlation,holder))
 
 #box_count_data=box_count(starter_lat, starter_lat.shape[0])
